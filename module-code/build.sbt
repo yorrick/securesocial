@@ -4,6 +4,8 @@ version := Common.version
 
 scalaVersion := Common.scalaVersion
 
+crossScalaVersions := Common.crossScalaVersions
+
 libraryDependencies ++= Seq(
   cache,
   ws,
